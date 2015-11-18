@@ -1,0 +1,9 @@
+
+.env
+*.pyc
+dist
+*.egg-info
+MANIFEST
+.tox/
+.cache/
+.ropeproject/

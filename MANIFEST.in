@@ -1,0 +1,3 @@
+include README.rst
+include LICENSE
+include hangul_romanize/version.txt
