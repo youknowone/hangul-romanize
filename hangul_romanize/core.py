@@ -81,8 +81,9 @@ class Transliter(object):
             pre = now
             now = post
 
-        out = self.rule(now, pre=pre, post=post)
-        if out is not None:
-            result.append(out)
+        if now is not None:
+            out = self.rule(now, pre=pre, post=(None, None))
+            if out is not None:
+                result.append(out)
 
         return u''.join(result)

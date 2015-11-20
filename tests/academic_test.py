@@ -26,6 +26,7 @@ def test_academic_rule(input, expected):
 
 
 @pytest.mark.parametrize(("input", "expected"), [
+    (u'', ''),
     (u'가', 'ga'),
     (u'힣', 'hih'),
     (u'밝', 'balg'),
