@@ -1,2 +1,2 @@
 
-from .core import Transliter
+from .core import Transliter  # noqa

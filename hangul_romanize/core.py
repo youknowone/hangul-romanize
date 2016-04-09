@@ -22,7 +22,7 @@ class Syllable(object):
         if char:
             code = ord(char)
         if not self.MIN <= code <= self.MAX:
-            raise TypeError('__init__ expected Hangul syllable but {} not in [{}..{}]'.format(code, self.MIN, self.MAX))
+            raise TypeError('__init__ expected Hangul syllable but {0} not in [{1}..{2}]'.format(code, self.MIN, self.MAX))
         self.code = code
 
     @property
