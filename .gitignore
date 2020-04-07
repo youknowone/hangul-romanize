@@ -7,3 +7,5 @@ MANIFEST
 .tox/
 .cache/
 .ropeproject/
+.DS_Store
+.python-version
