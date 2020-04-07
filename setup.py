@@ -4,13 +4,13 @@ from setuptools import setup
 
 
 def get_version():
-    with open('hangul_romanize/version.txt') as f:
+    with open('hangul_romanize/version.txt', encoding='utf-8') as f:
         return f.read().strip()
 
 
 def get_readme():
     try:
-        with open('README.rst') as f:
+        with open('README.rst', encoding='utf-8') as f:
             return f.read().strip()
     except IOError:
         return ''
